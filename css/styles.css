@@ -451,3 +451,9 @@ img {
 }
 
 /* For taller devices */
+@media screen and (min-width: 1500px) and (min-height: 1032px) {
+  .home__container {
+    height: 100vh;
+    align-items: center;
+  }
+}

@@ -52,4 +52,8 @@ const swiperWatches = new Swiper(".home__swiper", {
     clickable: true,
   },
 });
+
 /*=============== GSAP ANIMATION ===============*/
+gsap.from(".home__images", 1.5, { opacity: 0, y: 150, delay: 0.1 });
+gsap.from(".home__data", 1.8, { opacity: 0, x: -100, delay: 0.8 });
+gsap.from(".home__info", 1.8, { opacity: 0, x: -100, delay: 1 });
