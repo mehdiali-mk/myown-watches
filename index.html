@@ -14,7 +14,7 @@
     />
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="css/styles.css" />
@@ -83,14 +83,88 @@
     <!--==================== MAIN ====================-->
     <main class="main">
       <!--==================== HOME ====================-->
-      <section class="home"></section>
+      <section class="home">
+        <div class="home__container container">
+          <div class="home__data">
+            <div class="home__content">
+              <div class="home__stars">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+              </div>
+
+              <h1 class="home__title">
+                Infinite Moments <br />
+                Luxury Timepieces<br />
+                Redefined
+              </h1>
+
+              <h3 class="home__price">$620</h3>
+            </div>
+
+            <a href="#" class="home__button">
+              ADD TO CART
+              <i class="ri-arrow-right-s-line"></i>
+            </a>
+          </div>
+          <div class="home__images">
+            <div class="home__swiper swiper">
+              <div class="swiper-wrapper">
+                <article class="home__article swiper-slide">
+                  <img
+                    src="img/watches-1.png"
+                    alt="watches-1"
+                    class="home__img"
+                  />
+                </article>
+                <article class="home__article swiper-slide">
+                  <img
+                    src="img/watches-2.png"
+                    alt="watches-2"
+                    class="home__img"
+                  />
+                </article>
+                <article class="home__article swiper-slide">
+                  <img
+                    src="img/watches-3.png"
+                    alt="watches-3"
+                    class="home__img"
+                  />
+                </article>
+              </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="home__info">
+            <img
+              src="img/watches-border.png"
+              alt="Watch Outline"
+              class="home__info-img"
+            />
+
+            <div class="home__info-content">
+              <p class="home__info-description">
+                Personalized watches are a job of quality and commitment. Each
+                piece is the result of a work of co-creation of innovation and
+                responsible sensitivity for users.
+              </p>
+
+              <a href="#" class="home__button-link">LEARN MORE</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--=============== GSAP ===============-->
     <script src=""></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="js/swiper-bundle.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="js/main.js"></script>
