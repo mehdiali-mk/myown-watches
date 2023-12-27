@@ -46,7 +46,10 @@ const swiperWatches = new Swiper(".home__swiper", {
       opacity: 0,
     },
   },
-
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
